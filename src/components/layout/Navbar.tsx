@@ -17,7 +17,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-success shadow-lg sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-dark shadow-lg sticky-top bg-warning">
       <div className="container">
         {/* Logo */}
         <a href="/" className="navbar-brand">
@@ -25,7 +25,6 @@ export default function Navbar() {
             src="/images/logo.png"
             alt="Nem Chua Phương Chi Lê"
             height="60"
-            className="rounded-circle border border-3 border-white shadow"
           />
         </a>
 
@@ -69,8 +68,8 @@ export default function Navbar() {
                   href={link.to}
                   className={`nav-link fw-medium fs-5 px-3 py-2 rounded-3 transition-all ${
                     isActive(link.to)
-                      ? "bg-white text-success shadow-sm"
-                      : "text-white hover-bg-white hover-text-success"
+                      ? "bg-white  shadow-sm"
+                      : "text-white hover-bg-white "
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
@@ -85,52 +84,48 @@ export default function Navbar() {
               className="btn btn-light btn-lg rounded-pill px-5 py-3 mt-5 shadow-lg"
               onClick={() => setIsOpen(false)}
             >
-              <i className="bi bi-telephone-fill text-success fs-4"></i>
-              <span className="ms-2 fw-bold text-success fs-5">
-                0945.868.886
-              </span>
+              <i className="bi bi-telephone-fill  fs-4"></i>
+              <span className="ms-2 fw-bold  fs-5">0982.950.699</span>
             </a>
           </div>
         )}
         <div className="navbar-nav mx-auto gap-5 d-none d-lg-flex">
           <a
             href="/"
-            className={`nav-link text-white fw-medium fs-5 ${
-              isActive("/") ? "text-success fw-medium" : "text-black-50"
+            className={`nav-link text-dark fw-medium fs-5 ${
+              isActive("/") ? " fw-medium" : "text-black-50"
             }`}
           >
             Trang chủ
           </a>
           <a
             href="/gioi-thieu"
-            className={`nav-link text-white fw-medium fs-5 ${
-              isActive("/gioi-thieu")
-                ? "text-success fw-medium"
-                : "text-black-50"
+            className={`nav-link text-dark fw-medium fs-5 ${
+              isActive("/gioi-thieu") ? " fw-medium" : "text-black-50"
             }`}
           >
             Giới thiệu
           </a>
           <a
             href="/san-pham"
-            className={`nav-link text-white fw-medium fs-5 ${
-              isActive("/san-pham") ? "text-success fw-medium" : "text-black-50"
+            className={`nav-link text-dark fw-medium fs-5 ${
+              isActive("/san-pham") ? " fw-medium" : "text-black-50"
             }`}
           >
             Sản phẩm
           </a>
           <a
             href="/tin-tuc"
-            className={`nav-link text-white fw-medium fs-5 ${
-              isActive("/tin-tuc") ? "text-success fw-medium" : "text-black-50"
+            className={`nav-link text-dark fw-medium fs-5 ${
+              isActive("/tin-tuc") ? " fw-medium" : "text-black-50"
             }`}
           >
             Tin tức
           </a>
           <a
             href="/lien-he"
-            className={`nav-link text-white fw-medium fs-5 ${
-              isActive("/lien-he") ? "text-success fw-medium" : "text-black-50"
+            className={`nav-link text-dark fw-medium fs-5 ${
+              isActive("/lien-he") ? " fw-medium" : "text-black-50"
             }`}
           >
             Liên hệ
@@ -141,9 +136,9 @@ export default function Navbar() {
         <div className="d-none d-xl-block">
           <a
             href="tel:0945868886"
-            className="btn text-dark bg-light btn-lg rounded-pill px-4 shadow"
+            className="btn text-light bg-dark btn-lg rounded-pill px-4 shadow"
           >
-            <i className="bi bi-telephone-fill"></i> 0945.868.886
+            <i className="bi bi-telephone-fill"></i> 0982.950.699
           </a>
         </div>
       </div>

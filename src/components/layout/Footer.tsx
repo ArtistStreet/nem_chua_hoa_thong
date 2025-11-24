@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <footer
-      className="text-white pt-5 pb-3"
-      style={{ backgroundImage: "url('/images/background.jpg')" }}
+      className="text-dark pt-5 pb-3"
+      style={{ backgroundImage: "url('/images/background.png')" }}
     >
       <div className="container">
         <div className="row gy-4">
@@ -15,8 +15,8 @@ export default function Footer() {
               className="img-fluid d-inline-block mb-4"
             />
 
-            <p className="text-white-50 small">
-              Nem Thanh – Đặc sản nem chua Thanh Hóa chính gốc.
+            <p className=" small">
+              Nem Hoa Thông – Đặc sản nem chua Thanh Hóa chính gốc.
               <br />
               Được làm 100% thủ công, lên men tự nhiên, không chất bảo quản.
             </p>
@@ -24,14 +24,22 @@ export default function Footer() {
 
           {/* Cột 2: Liên kết nhanh */}
           <div className="col-lg-4">
-            <h5 className="text-light fw-bold mb-3">Liên hệ với chúng tôi</h5>
-            <p className="text-white-50 small mb-2">
+            <h5 className=" fw-bold mb-3">Liên hệ với chúng tôi</h5>
+            <p className=" small mb-2">
               <i className="bi bi-geo-alt-fill"></i>
-              Quan Sơn - Phường An Hưng - TP Thanh Hoá
+              Cơ sở 1: Số 13 Phố Ngọc Giao, Phường Hạc Thành, Tỉnh Thanh Hóa.
+              <br />
+              Cơ sở 2: Lô 17– Nơ 9 – MB2125 đường Lê Duy Tổng, Phường Hạc Thành
+              ( đối diện Sunspost), Tỉnh Thanh Hóa. <br />
+              Cơ sở 3: Số 73D Đào Duy Từ, Phường Hạc Thành, Tỉnh Thanh Hóa.
+              <br /> Cơ sở 4: 68 Đại Cồ Việt, Phường Hai Bà Trưng, Thành phố Hà
+              Nội.
+              <br /> Cơ sở 5: Số nhà 105 Hán Thuyên, Phường Hạc Thành, Tỉnh
+              Thanh Hóa.
             </p>
-            <p className="text-white-50 small mb-2">
+            <p className=" small mb-2">
               <i className="bi bi-telephone-fill"></i>
-              Hotline: 0945868886
+              Hotline: 0982.950.699 - 0947.651.111
             </p>
           </div>
 

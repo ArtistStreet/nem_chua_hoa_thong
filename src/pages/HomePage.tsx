@@ -76,7 +76,7 @@ export default function HomePage() {
       </section>
       <section
         className="py-5"
-        style={{ backgroundImage: "url('/images/background.jpg')" }}
+        style={{ backgroundImage: "url('/images/background.png')" }}
       >
         <div className="container py-lg-5">
           <div className="text-center mb-5">

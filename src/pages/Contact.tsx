@@ -19,15 +19,18 @@ export default function Contact() {
             <div className="col-lg-4 text-center text-lg-start">
               <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gap-3">
                 <div
-                  className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
-                  style={{ width: "80px", height: "80px" }}
+                  className="text-white bg-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  style={{
+                    width: "80px",
+                    height: "80px",
+                  }}
                 >
                   <FaMapMarkerAlt style={{ fontSize: "36px" }} />
                 </div>
                 <div>
-                  <h5 className="text-success mb-2 fw-bold">Cơ sở:</h5>
-                  <p className="mb-0 text-dark">
-                    Quan Sơn - Phường An Hưng - TP Thanh Hoá
+                  <h5 className="mb-2 fw-bold text-warning">Cơ sở:</h5>
+                  <p className="mb-0 text-warning">
+                    Số 13 Phố Ngọc Giao, Phường Hạc Thành, Tỉnh Thanh Hóa
                   </p>
                 </div>
               </div>
@@ -37,14 +40,19 @@ export default function Contact() {
             <div className="col-lg-4 text-center text-lg-start">
               <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gap-3">
                 <div
-                  className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
-                  style={{ width: "80px", height: "80px" }}
+                  className="text-white bg-warning rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  style={{
+                    width: "80px",
+                    height: "80px",
+                  }}
                 >
                   <FaPhone style={{ fontSize: "36px" }} />
                 </div>
                 <div>
-                  <h5 className="text-success mb-2 fw-bold">Hotline:</h5>
-                  <p className="mb-0 text-success text-decoration-none">
+                  <h5 className="mb-2 fw-bold" style={{ color: "#eeaa11" }}>
+                    Hotline:
+                  </h5>
+                  <p className="mb-0 text-decoration-none text-warning">
                     0945.868.886
                   </p>
                 </div>
