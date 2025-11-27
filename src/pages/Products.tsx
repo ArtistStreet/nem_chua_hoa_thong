@@ -7,7 +7,7 @@ export default function Products() {
   return (
     <>
       <Helmet>
-        <title>Sản phẩm – Nem Chua Phương Chi Lê</title>
+        <title>Sản phẩm – nem chua Hoa Thông</title>
       </Helmet>
       <MainBanner mainTitle="Sản Phẩm" subTitle="Sản Phẩm" />
 
@@ -32,7 +32,7 @@ export default function Products() {
                       />
                     </div>
                     <div className="card-body text-center py-4">
-                      <h5 className="card-title text-success mb-0 fw-bold">
+                      <h5 className="card-title mb-0 fw-bold" style={{ color: "#eeaa11" }}>
                         {product.name}
                       </h5>
                     </div>

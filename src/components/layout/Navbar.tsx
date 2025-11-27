@@ -23,7 +23,7 @@ export default function Navbar() {
         <a href="/" className="navbar-brand">
           <img
             src="/images/logo.png"
-            alt="Nem Chua Phương Chi Lê"
+            alt="nem chua Hoa Thông"
             height="60"
           />
         </a>
@@ -41,8 +41,8 @@ export default function Navbar() {
         {/* Menu - Mobile sẽ hiện khi bấm burger */}
         {isOpen && (
           <div
-            className="position-fixed top-0 start-0 w-100 h-100 bg-success bg-opacity-98 d-flex flex-column align-items-center justify-content-start pt-4 z-index-9999"
-            style={{ zIndex: 9999 }}
+            className="position-fixed top-0 start-0 w-100 h-100 d-flex flex-column align-items-center justify-content-start pt-4 z-index-9999"
+            style={{ zIndex: 9999, backgroundColor: "rgba(238,170,17,0.98)" }}
           >
             <button
               className="position-absolute top-0 end-0 btn m-3 text-white fs-3"
@@ -85,7 +85,7 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               <i className="bi bi-telephone-fill  fs-4"></i>
-              <span className="ms-2 fw-bold  fs-5">0982.950.699</span>
+              <span className="ms-2 fw-bold  fs-5" style={{ color: "#eeaa11" }}>0982.950.699</span>
             </a>
           </div>
         )}

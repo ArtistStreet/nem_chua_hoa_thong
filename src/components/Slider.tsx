@@ -20,7 +20,7 @@ const HeroSlider: React.FC = () => {
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/01.png"
+            src="/images/nemchua1-HT.jpg"
             alt="Nem chua"
             className="d-block w-100 object-cover"
             style={{
@@ -33,7 +33,7 @@ const HeroSlider: React.FC = () => {
       <SwiperSlide>
         <div className="slide relative">
           <img
-            src="/images/nem-coi.jpg"
+            src="/images/nem-thinh-HT.jpg"
             alt="Nem chua"
             className="d-block w-100 object-cover"
             style={{

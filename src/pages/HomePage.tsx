@@ -18,7 +18,7 @@ export default function HomePage() {
       name: "Ngọc Anh VTC",
       role: "Phóng viên VTC",
       content:
-        "Được chứng kiến quy trình của Nem thanh, mình rất tin tưởng an toàn vệ sinh ẩm thực của Nem Thanh. Mình rất thích hương vị nem ở đây",
+        "Được chứng kiến quy trình của Nem chua Hoa Thông, mình rất tin tưởng an toàn vệ sinh ẩm thực của Nem chua Hoa Thông. Mình rất thích hương vị nem ở đây",
       avatar: "/images/person2.jpeg",
       stars: 5,
     },
@@ -26,7 +26,7 @@ export default function HomePage() {
       name: "Anh Toàn",
       role: "Giáo viên Tiếng Anh",
       content:
-        "Tôi ăn nhiều vị nem khác nhau thì tôi thấy vị nem chua của Nem Thanh là ngon nhất",
+        "Tôi ăn nhiều vị nem khác nhau thì tôi thấy vị nem chua của Nem chua Hoa Thông là ngon nhất",
       avatar: "/images/person3.webp",
       stars: 5,
     },
@@ -43,14 +43,14 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Nem Chua Phương Chi Lê</title>
+        <title>Nem Chua Hoa Thông</title>
       </Helmet>
       <HeroSlider />
       <section className="py-8 bg-white">
         <div className="container">
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
-              <h2 className="display-5 fw-normal text-success mb-4">
+              <h2 className="display-5 fw-normal mb-4" style={{ color: "#eeaa11" }}>
                 Nem Chua xứ Thanh
               </h2>
 
@@ -65,7 +65,7 @@ export default function HomePage() {
             </div>
             <div className="col-lg-6">
               <img
-                src="/images/01.png"
+                src="/images/nemchua-HT.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg"
                 style={{ height: "30rem", objectFit: "cover" }}
@@ -81,14 +81,14 @@ export default function HomePage() {
         <div className="container py-lg-5">
           <div className="text-center mb-5">
             <h2 className="display-5 fw-bold text-white">
-              Sản phẩm nổi bật của Phương Chi Lê
+              Sản phẩm nổi bật của Hoa Thông
             </h2>
             <div
               className="mx-auto mt-3"
               style={{
                 width: "80px",
                 height: "4px",
-                backgroundColor: "#05c10c",
+                backgroundColor: "#eeaa11",
               }}
             ></div>
           </div>
@@ -97,19 +97,20 @@ export default function HomePage() {
             <div className="col-6 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-chua.jpg.webp"
-                  alt="Nem Chua Nhỏ"
+                  src="/images/nemchua2-HT.jpg"
+                  alt="Nem Chua"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                  style={{ maxHeight: "24rem" }}
                 />
-                <p className="text-white fw-medium fs-5">Nem Chua Nhỏ</p>
+                <p className="text-white fw-medium fs-5">Nem Chua</p>
               </div>
             </div>
 
             <div className="col-6 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-thinh.jpg.webp"
-                  alt="Nem Thịnh"
+                  src="/images/nem-thinh-HT.jpg"
+                  alt="Nem Thính"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                 />
                 <p className="text-white fw-medium fs-5">Nem Thính</p>
@@ -119,7 +120,7 @@ export default function HomePage() {
             <div className="col-6 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-nuong.jpg.webp"
+                  src="/images/nem-nuong-HT.jpg"
                   alt="Nem Nướng"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                 />
@@ -130,11 +131,11 @@ export default function HomePage() {
             <div className="col-6 col-md-4 col-lg-3 text-center">
               <div className="product-item">
                 <img
-                  src="/images/nem-coi.jpg"
-                  alt="Nem Cói"
+                  src="/images/nem-gan-HT.jpg"
+                  alt="Nem Gân"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                 />
-                <p className="text-white fw-medium fs-5">Nem Cối</p>
+                <p className="text-white fw-medium fs-5">Nem Gân</p>
               </div>
             </div>
           </div>
@@ -144,14 +145,14 @@ export default function HomePage() {
       <section className="py-10" style={{ backgroundColor: "#f5f7f5" }}>
         <div className="container">
           <div className="text-start mb-5">
-            <h2 className="display-6 fw-bold text-success lh-base">
+            <h2 className="display-6 fw-bold lh-base" style={{ color: "#eeaa11" }}>
               Khách hàng nói gì về
               <br />
-              <span className="text-success">chúng tôi, những</span>
+              <span style={{ color: "#eeaa11" }}>chúng tôi, những</span>
               <br />
-              <span className="text-success">feedback chân thật nhất</span>
+              <span style={{ color: "#eeaa11" }}>feedback chân thật nhất</span>
               <br />
-              về Nem Phương Chi Lê
+              về Nem chua Hoa Thông
             </h2>
           </div>
 
@@ -177,7 +178,7 @@ export default function HomePage() {
                       style={{ objectFit: "cover" }}
                     />
                     <div>
-                      <h6 className="mb-0 fw-bold text-success">
+                      <h6 className="mb-0 fw-bold" style={{ color: "#eeaa11" }}>
                         {review.name}
                       </h6>
                       <small className="text-muted">{review.role}</small>
