@@ -13,10 +13,10 @@ export default function ProductDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{product.name} – Nem Chua Phương Chi Lê</title>
+        <title>{product.name} – nem chua Hoa Thông</title>
         <meta
           name="description"
-          content={`Xem chi tiết sản phẩm ${product.name} của Phương Chi Lê.`}
+          content={`Xem chi tiết sản phẩm ${product.name} của Hoa Thông.`}
         />
       </Helmet>
       <MainBanner mainTitle={product.name} subTitle="Sản Phẩm" />
@@ -35,7 +35,7 @@ export default function ProductDetailPage() {
 
             {/* Thông tin phải */}
             <div className="col-lg-8">
-              <h2 className="display-5 fw-bold text-success mb-3">
+              <h2 className="display-5 fw-bold mb-3" style={{ color: "#eeaa11" }}>
                 {product.name}
               </h2>
 

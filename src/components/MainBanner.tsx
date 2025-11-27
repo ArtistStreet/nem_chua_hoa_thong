@@ -16,7 +16,7 @@ const MainBanner: React.FC<MainBannerProps> = ({ mainTitle, subTitle }) => {
         className="py-5 text-center position-relative overflow-hidden"
         style={{
           background:
-            "linear-gradient(rgba(0,100,0,0.7), rgba(0,100,0,0.8)), url('/images/nem-chua.jpg.webp') center/cover no-repeat",
+            "linear-gradient(rgba(155, 128, 65, 0.7), rgba(238,170,17,0.8)), url('/images/background-HT.jpg') center/cover no-repeat",
           minHeight: "400px",
           display: "flex",
           alignItems: "center",

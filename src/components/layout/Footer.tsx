@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="col-lg-4 text-center text-lg-start">
             <img
               src="/images/logo.png"
-              alt="Nem Thanh"
+              alt="nem chua Hoa Thông"
               style={{ height: "60px" }}
               className="img-fluid d-inline-block mb-4"
             />
@@ -48,7 +48,7 @@ export default function Footer() {
             {/* Bản đồ Google nhúng */}
             <div className="ratio ratio-16x9 rounded overflow-hidden shadow">
               <iframe
-                title="Bản đồ Nem Thanh"
+                title="Bản đồ nem chua Hoa Thông"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3728.456789012345!2d105.776543575!3d19.79876598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3136f9a7f2b8c1d5%3A0x9e0f1a2b3c4d5e6f!2sNem%20Thanh%20-%20Quan%20S%C6%A1n%2C%20Ph%C6%B0%E1%BB%9Dng%20An%20H%C6%B0ng%2C%20TP.%20Thanh%20H%C3%B3a!5e0!3m2!1svi!2s!4v1733000000000"
                 width="100%"
                 height="300"

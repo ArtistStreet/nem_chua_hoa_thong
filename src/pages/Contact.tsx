@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Liên hệ – Nem Chua Phương Chi Lê</title>
+        <title>Liên hệ – nem chua Hoa Thông</title>
       </Helmet>
       <MainBanner mainTitle="Liên Hệ" subTitle="Contact" />
 
@@ -63,14 +63,14 @@ export default function Contact() {
             <div className="col-lg-4 text-center text-lg-start">
               <div className="d-flex flex-column flex-lg-row align-items-center align-items-lg-start gap-3">
                 <div
-                  className="bg-success text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
+                  className="bg-warning text-white rounded-circle d-flex align-items-center justify-content-center flex-shrink-0"
                   style={{ width: "80px", height: "80px" }}
                 >
                   <FaEnvelope style={{ fontSize: "36px" }} />
                 </div>
                 <div>
-                  <h5 className="text-success mb-2 fw-bold">Mail liên hệ:</h5>
-                  <p className="mb-0 text-success text-decoration-none">
+                  <h5 className=" mb-2 fw-bold" style={{ color: "#eeaa11" }}>Mail liên hệ:</h5>
+                  <p className="mb-0 text-warning text-decoration-none">
                     nemphuongchile@gmail.com
                   </p>
                 </div>
@@ -87,13 +87,13 @@ export default function Contact() {
             {/* Ảnh */}
             <div className="col-lg-6">
               <img
-                src="/images/brand.jpg"
+                src="/images/nem-chua-ngon-HT.jpg"
                 alt="Nem chua Thanh Hóa"
                 className="img-fluid rounded-4 shadow-lg w-100"
                 style={{
                   objectFit: "cover",
-                  height: "100%",
-                  minHeight: "500px",
+                  height: "43rem",
+                  minHeight: "10rem",
                 }}
               />
             </div>
@@ -103,7 +103,7 @@ export default function Contact() {
                 className="bg-white p-5 rounded-4 shadow-lg h-100"
                 style={{ border: "1px solid #e0e0e0" }}
               >
-                <h3 className="text-success fw-bold text-center mb-4">
+                <h3 className="text-warning fw-bold text-center mb-4">
                   Liên hệ với chúng tôi
                 </h3>
                 <p className="text-muted text-center mb-4">
@@ -125,7 +125,7 @@ export default function Contact() {
                   <input
                     type="hidden"
                     name="_subject"
-                    value="Khách liên hệ từ website Nem Phương Chi Lê"
+                    value="Khách liên hệ từ website nem chua Hoa Thông"
                   />
 
                   <div className="mb-3">
@@ -166,7 +166,8 @@ export default function Contact() {
 
                   <button
                     type="submit"
-                    className="btn btn-success btn-lg px-5 rounded-pill w-100 shadow"
+                    className="btn btn-lg px-5 rounded-pill w-100 shadow"
+                    style={{ backgroundColor: "#eeaa11", color: "#fff", border: "none" }}
                   >
                     Gửi liên hệ
                   </button>
