@@ -30,7 +30,8 @@ export default function Contact() {
                 <div>
                   <h5 className="mb-2 fw-bold text-warning">Cơ sở:</h5>
                   <p className="mb-0 text-warning">
-                    Số 13 Phố Ngọc Giao, Phường Hạc Thành, Tỉnh Thanh Hóa
+                    Cơ sở 1: Số 13, Ngô Thị Ngọc Dao, Phường Hạc Thành, Tỉnh
+                    Thanh Hóa
                   </p>
                 </div>
               </div>
@@ -69,7 +70,9 @@ export default function Contact() {
                   <FaEnvelope style={{ fontSize: "36px" }} />
                 </div>
                 <div>
-                  <h5 className=" mb-2 fw-bold" style={{ color: "#eeaa11" }}>Mail liên hệ:</h5>
+                  <h5 className=" mb-2 fw-bold" style={{ color: "#eeaa11" }}>
+                    Mail liên hệ:
+                  </h5>
                   <p className="mb-0 text-warning text-decoration-none">
                     nemphuongchile@gmail.com
                   </p>
@@ -167,7 +170,11 @@ export default function Contact() {
                   <button
                     type="submit"
                     className="btn btn-lg px-5 rounded-pill w-100 shadow"
-                    style={{ backgroundColor: "#eeaa11", color: "#fff", border: "none" }}
+                    style={{
+                      backgroundColor: "#eeaa11",
+                      color: "#fff",
+                      border: "none",
+                    }}
                   >
                     Gửi liên hệ
                   </button>

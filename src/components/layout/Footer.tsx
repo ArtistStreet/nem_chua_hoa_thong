@@ -27,7 +27,8 @@ export default function Footer() {
             <h5 className=" fw-bold mb-3">Liên hệ với chúng tôi</h5>
             <p className=" small mb-2">
               <i className="bi bi-geo-alt-fill"></i>
-              Cơ sở 1: Số 13 Phố Ngọc Giao, Phường Hạc Thành, Tỉnh Thanh Hóa.
+              Cơ sở 1: Số 13, Ngô Thị Ngọc Dao, Phường Hạc Thành, Tỉnh Thanh
+              Hóa.
               <br />
               Cơ sở 2: Lô 17– Nơ 9 – MB2125 đường Lê Duy Tổng, Phường Hạc Thành
               ( đối diện Sunspost), Tỉnh Thanh Hóa. <br />
