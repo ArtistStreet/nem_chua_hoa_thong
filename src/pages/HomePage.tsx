@@ -50,7 +50,10 @@ export default function HomePage() {
         <div className="container">
           <div className="row align-items-center g-5">
             <div className="col-lg-6">
-              <h2 className="display-5 fw-normal mb-4" style={{ color: "#eeaa11" }}>
+              <h2
+                className="display-5 fw-normal mb-4"
+                style={{ color: "#eeaa11" }}
+              >
                 Nem Chua xứ Thanh
               </h2>
 
@@ -100,7 +103,11 @@ export default function HomePage() {
                   src="/images/nemchua2-HT.jpg"
                   alt="Nem Chua"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                  style={{ maxHeight: "24rem" }}
+                  style={{
+                    height: "280px" ,
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Chua</p>
               </div>
@@ -112,6 +119,11 @@ export default function HomePage() {
                   src="/images/nem-thinh-HT.jpg"
                   alt="Nem Thính"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                   style={{
+                    height: "280px" ,
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Thính</p>
               </div>
@@ -123,6 +135,11 @@ export default function HomePage() {
                   src="/images/nem-nuong-HT.jpg"
                   alt="Nem Nướng"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                   style={{
+                    height: "280px" ,
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Nướng</p>
               </div>
@@ -134,6 +151,11 @@ export default function HomePage() {
                   src="/images/nem-gan-HT.jpg"
                   alt="Nem Gân"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
+                   style={{
+                    height: "280px" ,
+                    width: "100%",
+                    objectFit: "cover" ,
+                  }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Gân</p>
               </div>
@@ -145,7 +167,10 @@ export default function HomePage() {
       <section className="py-10" style={{ backgroundColor: "#f5f7f5" }}>
         <div className="container">
           <div className="text-start mb-5">
-            <h2 className="display-6 fw-bold lh-base" style={{ color: "#eeaa11" }}>
+            <h2
+              className="display-6 fw-bold lh-base"
+              style={{ color: "#eeaa11" }}
+            >
               Khách hàng nói gì về
               <br />
               <span style={{ color: "#eeaa11" }}>chúng tôi, những</span>
