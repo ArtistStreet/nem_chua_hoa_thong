@@ -104,9 +104,9 @@ export default function HomePage() {
                   alt="Nem Chua"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
                   style={{
-                    height: "280px" ,
+                    height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Chua</p>
@@ -119,10 +119,10 @@ export default function HomePage() {
                   src="/images/nem-thinh-HT.jpg"
                   alt="Nem Thính"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                   style={{
-                    height: "280px" ,
+                  style={{
+                    height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Thính</p>
@@ -135,10 +135,10 @@ export default function HomePage() {
                   src="/images/nem-nuong-HT.jpg"
                   alt="Nem Nướng"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                   style={{
-                    height: "280px" ,
+                  style={{
+                    height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Nướng</p>
@@ -151,10 +151,10 @@ export default function HomePage() {
                   src="/images/nem-gan-HT.jpg"
                   alt="Nem Gân"
                   className="img-fluid rounded-4 shadow-lg mb-3 hover-scale"
-                   style={{
-                    height: "280px" ,
+                  style={{
+                    height: "280px",
                     width: "100%",
-                    objectFit: "cover" ,
+                    objectFit: "cover",
                   }}
                 />
                 <p className="text-white fw-medium fs-5">Nem Gân</p>
@@ -164,20 +164,104 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="py-5 bg-light">
+        <div className="container py-lg-5">
+          <h2 className="text-center display-5 fw-bold mb-5">Xưởng sản xuất</h2>
+
+          <div className="row g-4 g-xl-5 justify-content-center">
+            <div className="col-12 order-1 order-md-2">
+              <div className="row g-3 g-xl-4">
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/Anh Hoa Thong/May xay thit 2.jpg"
+                      alt="Chế biến nem"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold mb-2">
+                      <i className="bi bi-droplet-fill"></i>
+                      Sạch sẽ tuyệt đối
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      Khu vực sản xuất được vệ sinh hàng ngày theo tiêu chuẩn 5S
+                    </p>
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/Anh Hoa Thong/02.jpg"
+                      alt="Nguyên liệu sạch"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold mb-2">
+                      <i className="bi bi-shield-check"></i>
+                      Nguyên liệu đạt chuẩn
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      100% thịt nạc vai tươi trong ngày, gia vị tự nhiên
+                    </p>
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/Anh Hoa Thong/nem sau goi 2.jpg"
+                      alt="Đóng gói"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold mb-2">
+                      <i className="bi bi-check2-all"></i>
+                      Quy trình 5S Nhật Bản
+                    </h5>
+                    <p className="text-muted small mb-0">
+                      Sàng lọc – Sắp xếp – Sạch sẽ – Săn sóc – Sẵn sàng
+                    </p>
+                  </div>
+                </div>
+
+                <div className="col-12 col-sm-6 col-md-3">
+                  <div className="overflow-hidden rounded-4 shadow hover-shadow">
+                    <img
+                      src="/images/Anh Hoa Thong/03.jpg"
+                      alt="Nhân viên"
+                      className="img-fluid w-100 h-100 object-cover transition"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <h5 className="fw-bold mb-2">
+                      <i className="bi bi-people-fill me-2"></i>
+                      Đội ngũ giàu kinh nghiệm
+                    </h5>
+                    <p className="text-muted small mb-0 leading-relaxed">
+                      Hơn <strong>20 năm</strong> gắn bó với nghề làm nem truyền
+                      thống xứ Thanh.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-10" style={{ backgroundColor: "#f5f7f5" }}>
         <div className="container">
           <div className="text-start mb-5">
-            <h2
-              className="display-6 fw-bold lh-base"
-              style={{ color: "#eeaa11" }}
-            >
-              Khách hàng nói gì về
+            <h2 className="display-6 fw-bold lh-base">
+              Khách hàng nói gì về chúng tôi,
               <br />
-              <span style={{ color: "#eeaa11" }}>chúng tôi, những</span>
+              <span>những feedback chân thật nhất</span>
               <br />
-              <span style={{ color: "#eeaa11" }}>feedback chân thật nhất</span>
-              <br />
-              về Nem chua Hoa Thông
+              về Nem Hoa Thông
             </h2>
           </div>
 
